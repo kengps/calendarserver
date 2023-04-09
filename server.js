@@ -32,7 +32,7 @@ app.use(cors());
 
 
 
-app.use("/.netlify/functions/api", mainRouter);
+app.use("/api", mainRouter);
 
 
 app.listen(port , ()=> console.log(`Server is running MY port ${port}`));
